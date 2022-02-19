@@ -1,14 +1,14 @@
-name: DEV - Tutorial Frontend Deploy
+name: DEV - Tutorial Fontend Deploy
 
 on:
   repository_dispatch:
-    types: [jarovat-tutorial-frontend-cd-dev]
+    types: [jarovat-tutorial-fontend-cd-dev]
   workflow_dispatch:
 
 env:
-  REPOSITORY: "jarovat/jarovat-tutorial-frontend"
-  APP_NAME: jarovat-tutorial-frontend
-  AZURE_WEB_APP_NAME: app-jarovat-tutorial-frontend-dev-001
+  REPOSITORY: "jarovat/jarovat-tutorial-fontend"
+  APP_NAME: jarovat-tutorial-fontend
+  AZURE_WEB_APP_NAME: app-jarovat-tutorial-fontend-dev-001
   CONTAINER_REPOSITORY: "acrjarovattutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
